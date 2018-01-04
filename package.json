@@ -3,7 +3,7 @@
   "description": "E2E tests and automation for mobile",
   "version" : "6.0.4",
   "bin": {
-    "detox": "./detox-cli/cli.sh"
+    "detox": "./detox/local-cli/detox.js"
   },
   "scripts": {
     "test:e2e:ios": "pushd detox/test && npm run e2e:ios && popd",
