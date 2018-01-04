@@ -15,8 +15,6 @@
     "release": "node scripts/release.js"
   },
   "dependencies": {
-      "detox": "file:./detox",
-      "detox-cli": "file:./detox-cli",
-      "detox-server": "file:./detox-server",
+      "detox": "https://github.com/nfl/detox#flavor_fix"
   }
 }
