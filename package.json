@@ -2,30 +2,13 @@
   "name": "detox",
   "description": "E2E tests and automation for mobile",
   "version" : "6.0.4",
+  "main": "./detox/src/index.js",
   "bin": {
     "detox": "./detox/local-cli/detox.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/wix/detox.git"
-  },
-  "scripts": {
-    "test:e2e:ios": "pushd detox/test && npm run e2e:ios && popd",
-    "test:e2e:android": "pushd detox/test && npm run e2e:android && popd",
-    "release": "node scripts/release.js"
-  },
-  "devDependencies": {
-    "eslint": "^4.11.0",
-    "eslint-config-prettier": "2.5.0",
-    "eslint-plugin-jest": "^20.0.3",
-    "eslint-plugin-prettier": "2.2.0",
-    "eslint-plugin-promise": "^3.4.2",
-    "eslint-plugin-react": "^7.1.0",
-    "eslint-plugin-react-native": "^3.1.0",
-    "jest": "^20.0.4",
-    "minimist": "^1.2.0",
-    "mockdate": "^2.0.1",
-    "prettier": "1.7.0"
   },
   "dependencies": {
     "child-process-promise": "^2.2.0",
