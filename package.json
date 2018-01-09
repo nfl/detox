@@ -10,6 +10,11 @@
     "type": "git",
     "url": "https://github.com/wix/detox.git"
   },
+  "scripts": {
+    "test:e2e:ios": "pushd detox/test && npm run e2e:ios && popd",
+    "test:e2e:android": "pushd detox/test && npm run e2e:android && popd",
+    "release": "node scripts/release.js"
+  },
   "dependencies": {
     "child-process-promise": "^2.2.0",
     "commander": "^2.9.0",
