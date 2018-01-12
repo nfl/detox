@@ -1,5 +1,5 @@
 {
-  "name": "detox",
+  "name": "@nfl/detox",
   "description": "E2E tests and automation for mobile",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
